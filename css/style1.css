@@ -1,0 +1,238 @@
+
+body, .login-submit, .login-submit:before, .login-submit:after {
+  
+}
+body {
+  background: url("../img/college.jpg") 0 0 repeat;
+  font: 14px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #404040;
+}
+.error{
+
+  color:red;
+}
+
+.form { 
+  position: relative;
+  margin:50px 40px  0px;
+  width: 300px;
+  padding-right: 32px;
+  font-weight: 300;
+  color: #a8a7a8;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+}
+.form div {
+  margin: 0 0 10px;
+}
+.form1 {
+  position: relative;
+  margin: 50px auto;
+  width: 600px;
+  padding-right: 32px;
+  font-weight: 300;
+  color: #a8a7a8;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+}
+.form1 div {
+  margin: 0 0 10px;
+}
+input, button ,label,select{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+label {
+  width: 200px;
+  line-height: 40px;
+  padding-right: 10px;
+  font-weight: 100;
+  text-align: right;
+  letter-spacing: 1px;
+}
+input[type=text], input[type=password],input[type=email],input[type=number] {
+  margin-bottom: 10px;
+  padding: 0 10px;
+  width: 250px;
+  height: 40px;
+  color: #bbb;
+  text-shadow: 1px 1px 1px black;
+  background: rgba(0, 0, 0, 0.8);
+  border: 0;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+}
+input[type=text]:focus, input[type=password]:focus ,input[type=email]:focus{
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  outline: 0;
+}
+select,input[type=number]{
+
+  padding: 0 10px;
+  width: 250px;
+  height: 40px;
+  color: #bbb;
+  text-shadow: 1px 1px 1px black;
+  background: rgba(0, 0, 0, 0.8);
+  border: 0;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+
+}
+.label1{
+  
+  width: 100px;
+  line-height: 40px;
+  padding-right: 10px;
+  padding-top: 10px;
+  font-weight: 100;
+  text-align: right;
+  letter-spacing: 1px;
+}
+.submit{
+  position: relative;
+  border-radius: 5px;
+  margin:0px 80px; 
+  background-color:#00a1d2; 
+  color:black;
+}
+#search
+{
+   width:80px;
+   height:40px; 
+   position: relative;
+   margin: 10px 180px;
+   border-radius: 5px;
+   background-color:#00a1d2; 
+   color:black;
+}
+.table-style
+{
+
+  margin: 100px;
+  margin-left:360px;
+}
+.table-style table, th, td {
+
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+th
+{
+  text-align:center; 
+}
+table#t01 tr:nth-child(even) {
+
+    background-color: #262626;
+    background: rgba(0, 0, 0, 0.9);
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #535353;
+    background: rgba(0, 0, 0, 1);
+}
+ table#t01 th {
+    color: white;
+    background-color: black;
+} 
+/*.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 0;
+
+  display: block;
+  
+
+  width: 100%;
+  height: 100%;
+
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}*/
+
+.content
+{
+  opacity: 0.6;
+  border:1px solid white;
+  background-color:#2A2A2A;
+  height:430px;
+  width:350px;
+  margin:50px;
+  
+  }
+.content1
+{ 
+  opacity:0.6; 
+  border:1px solid white;  
+  background-color:#2A2A2A;
+  height:550px;
+  width:450px;
+}
+#nav-bar ul
+{
+     list-style: none;
+     margin: 0; /* Aligns drop-down box underneath the menu item */
+     padding: 0; /* Aligns drop-down box underneath the menu item */    
+    }       
+}
+#nav-bar ul li
+{
+  border:1px solid #000
+    display: block;  
+    position: relative;
+    float: left;
+    /*height: auto; */                
+}       
+
+#nav-bar li ul
+{
+    display: none;  /* Hides the drop-down menu */
+    /*height: auto; */             
+}       
+
+#nav-bar ul li a 
+{
+  display: block;
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 5px 10px 5px 10px;
+}
+#nav-bar li:hover ul   
+{ 
+    display: block; /* Displays the drop-down box when the menu item is hovered over */
+    position: absolute;
+}
+#nav-bar li:hover li
+{
+    display:block;
+}
+#nav-bar li
+{
+
+  list-style-type: none;
+  text-decoration: none;  /* Removes the default hyperlink styling. */
+}
+#nav-bar li:hover a {background: #101010;}
+#nav-bar  li:hover li a:hover {background: #000;}
+
+.panel-footer {
+    font-size:120%;
+    padding: 10px 45px;
+    margin: 125px;
+    display: inline;
+    background-color: #535353;
+    background: rgba(0, 0, 0, 0.8);
+    /*border-top: 1px solid #DDD;*/
+    border-radius: 3px;
+}
